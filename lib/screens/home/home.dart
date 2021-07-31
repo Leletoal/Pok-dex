@@ -7,18 +7,7 @@ import 'package:pokedex/screens/models/models.dart';
 
 
 class Home extends StatelessWidget{
-  final caracter = Caracter (
-    name: "Charmanader #004",
-    photo: "assets/assets/charmander.pnj",
-    height:  0.6,
-    weight: 8.5,
-    ability: [
-      "Chama",
-    ]
-    type: [
-      "Fogo"
-    ]
-  )
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
